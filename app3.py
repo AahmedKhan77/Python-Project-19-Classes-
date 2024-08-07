@@ -1,7 +1,13 @@
 class Person:
+    def __init__(self, name):
+        self.name = name
+
     def talk(self):
-        print("talk")
+        print(f"Hi, I am {self.name}")
 
 
-john = Person()
+
+john = Person("John")
 john.talk()
+bob = Person("Blob")
+bob.talk()

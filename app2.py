@@ -11,4 +11,4 @@ class Point:
 
 point = Point(10, 20)
 print(point.x)
-print(point.  y)
+print(point.y)
